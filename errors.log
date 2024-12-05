@@ -1,0 +1,19 @@
+[11-Jul-2024 13:47:29 Europe/Moscow] PHP Notice:  Undefined variable: zapTemplateFields in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/document.php on line 794
+[20-Jul-2024 07:31:41 Europe/Moscow] PHP Notice:  Undefined offset: 40 in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions_docs.php on line 159
+[20-Jul-2024 14:53:41 Europe/Moscow] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Exception: Cell coordinate must not be absolute. in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php:1204
+Stack trace:
+#0 /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php(1109): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('$(\xD0\x93\xD0\xBE\xD1\x80\xD0\xBE\xD0\xB4 \xD0\xB7...')
+#1 /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions_docs.php(33): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('$(\xD0\x93\xD0\xBE\xD1\x80\xD0\xBE\xD0\xB4 \xD0\xB7...', '\xD0\xB3. \xD0\x92\xD0\xBB\xD0\xB0\xD0\xB4\xD0\xB8\xD0...')
+#2 /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/document.php(220): generateXlsx('1', Array, 'templates/0001/...', '8')
+#3 {main}
+  thrown in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/lib/phpspreadsheet/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1204
+[21-Jul-2024 06:04:45 Europe/Moscow] PHP Notice:  Undefined offset: 35 in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions_docs.php on line 159
+[21-Jul-2024 06:05:16 Europe/Moscow] PHP Notice:  Undefined offset: 35 in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions_docs.php on line 159
+[21-Jul-2024 06:16:43 Europe/Moscow] PHP Notice:  Undefined offset: 35 in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions_docs.php on line 159
+[25-Jul-2024 04:32:54 Europe/Moscow] PHP Notice:  Undefined index: sprav_2 in /var/www/u2022070/data/www/xn----7sbhbhdad8bufhhcewc8ajq.xn--p1ai/functions.php on line 83
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
+[05-Dec-2024 15:08:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/aq/Downloads/БЭКАП (1)/document.php on line 1019
